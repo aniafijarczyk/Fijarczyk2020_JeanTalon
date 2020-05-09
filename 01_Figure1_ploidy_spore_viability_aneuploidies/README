@@ -1,0 +1,48 @@
+Code and input files for plotting Figure 1: results of ploidy estimation, spore viability, large copy number variants and aneuploidies
+
+
+### Ploidy estimation measured with DNA staining & fluorescence
+
+plotPloidy.R
+
+requirements:
+./input_files/Ploidy_JT_tot.txt
+
+output:
+plotPloidy.pdf
+
+
+
+### Distribution of allele frequencies of single nucleotide variants in Jean-Talon
+
+plotFreq.R
+
+requirements:
+./input_files/SNP_frequencies.tab
+
+output:
+plotFreq.pdf
+
+
+
+### Viable spores per tetrad
+
+plotDotplot.R
+
+requirements:
+./input_files/sporulation_data.tab
+
+output:
+plotDotplot.pdf
+
+
+
+### Copy number in 250 bp windows across the Jean-Talon genome
+
+plotCNVsInGenome.R
+
+requirements:
+./input_files/formatInput_Jean-Talon.tab
+
+output:
+plotCNVsInGenome.pdf
