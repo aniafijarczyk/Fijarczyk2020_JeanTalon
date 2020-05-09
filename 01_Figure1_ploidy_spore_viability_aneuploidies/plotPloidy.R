@@ -1,5 +1,3 @@
-setwd("/media/anna/Volume/Yeast_JeanTalon/2020_02_figshare/figure1")
-
 # author:Souhir Marsit
 library(ggplot2)
 library(dplyr)

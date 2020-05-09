@@ -1,5 +1,3 @@
-setwd("/media/anna/Volume/Yeast_JeanTalon/2020_02_figshare/figure1")
-
 # author:aniafijarczyk
 library(dplyr)
 library(ggplot2)
