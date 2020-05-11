@@ -1,0 +1,59 @@
+Analyses related to estimating relatedness of the Jean-Talon strain to other beer strains
+
+
+
+
+### NJ tree of selected 77 beer strains
+
+plotTree_IBS.R
+
+requirements:
+./input_files/sample_VarFiltr.vcf.gz
+./input_files/samples_pop.txt
+
+output:
+genotypes_allsamples_VarFiltr.gds
+sample_VarFiltr_ibs.nwk
+
+
+
+### Matrix of kinship coefficients
+
+plotHeatmap_IBD.R
+
+requirements:
+./input_files/sample_VarFiltr.vcf.gz
+./input_files/samples_pop.txt
+./input_files/beerbakery_groups.txt
+./input_files/beer_types2.txt
+
+output:
+genotypes_allsamples_VarFiltr.gds
+plotHeatmap_IBD_sample.pdf
+IBDKINGmethod_kinship_with_JT_sample.out	# Table of kinship coefficients of each strain with Jean-Talon
+IBDKINGmethod_kinship_matrix_sample.out		# Matrix with kinship coefficients between all strains
+
+
+### Estimates of diversity and divergence
+
+plotDiversity.R
+
+requirements:
+./input_files/diversity_6041genes.tab
+
+output:
+plotDiversity.pdf
+
+
+### Calculating divergence time between Jean-Talon and relatives using S. cerevisiae S288C as an outgroup
+
+calcRelativeTime_Scer.ipynb
+
+requirements:
+./input_files/synonymous_length.txt			# number of synonymous sites in genome pairs of Jean-Talon and each relative
+./input_files/relatives_annot_Filtered2_01.samples	# ordered sample names of strains in the file with genotypes
+./input_files/sample_annot_Filtered2_01.tab.gz		# file with genotypes (sample)
+./input_files/sample_annot_synonymous_snpEff.tab.gz	# list of synonymous variants
+
+output:
+calcRelativeTime_Scer_sample.out

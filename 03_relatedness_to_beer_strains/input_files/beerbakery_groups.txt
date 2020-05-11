@@ -1,0 +1,115 @@
+gr	sample	Type2	Groups2	Geographic origin	Substrate	Type	Country
+Group1	A.T-58	Beer	Beer/baking	Belgium	Commercial Ale	Ale	Belgium
+Group1	TUM506	Beer	Beer/Bread	Great Britain	British ale	Ale	UK
+Group1	BE028	Beer	Mixed	Belgium	Beer (Ale refermentation)	Ale	Belgium
+Group1	BE006	Beer	Mixed	Unknown	Beer (Ale refermentation)	Ale	unk
+Group1	CFP	Beer	08.M	unk	Carlsberg Beer	Carlesberg	unk
+Group1	BE029	Beer	Mixed	Belgium	Beer (Ale refermentation)	Ale	Belgium
+Group1	SP001	Spirits	Mixed	Unknown	Spirits	Spirits	unk
+Group1	AMN	Wild	08.M	Tuchih, Nantou, Taiwan	Leaf of Wendlandia formosana	Tree	Taiwan
+Group1	ABM1	Baking	Beer/baking	unk	Commercial Baking	Baking	unk
+Group1	BBC	Wild	08.M	Laksarska Nova Ves, Slovakia	Fruitbody of mushroom Xerocomus badius (Fr.) Gilb.	Fruit	Slovakia
+Group1	ALV	Wild	08.M	Male Zaluzie, Slovakia	Fruit of plum tree (Prunus domestica L., 'Stanley')	Fruit	Slovakia
+Group1	ABV	Wild	08.M	Tijuca forest, Rio de Janeiro, Brazil	Poluted stream	Water	Brazil
+Group1	CHI	Baking	08.M	USA	Bakery	Baking	USA
+Group1	AAN	Baking	08.M	Czech Republic	Bakery	Baking	Czech Republic
+Group1	ALP	Wild	08.M	Bratislava, Deninska Nova Ves, Slovakia	River water Morava	Water	Slovakia
+Group1	ALN	Wild	08.M	Bratislava, Deninska Nova Ves, Slovakia	River water (Morava)	Water	Slovakia
+Group1	BBF	Wild	08.M	Bratislava, Slovakia	River water (Danube)	Water	Slovakia
+Group1	AAP	Baking	08.M	Australia	Bakery	Baking	Australia
+Group1	BBE	Wild	08.M	Jakubov, Slovakia	Sediment of fresh water lake	Water	Slovakia
+Group1	BBD	Wild	08.M	Jakubov, Slovakia	Fish pond water	Water	Slovakia
+Group2	A.Windson	Beer	Beer/baking	England	Commercial Ale	Ale	UK
+Group2	A.S-33	Beer	Beer/baking	England	Commercial Ale	Ale	UK
+Group2	A.Coopers	Beer	Beer/baking	Australia	Commercial Ale	Ale	Australia
+Group2	A.Muntons	Beer	Beer/baking	England	Commercial Ale	Ale	UK
+Group2	CFN	Beer	08.M	unk	Carlsberg Beer	Carlesberg	unk
+Group2	BE005	Beer	Mixed	Belgium	Beer (Ale)	Ale	Belgium
+Group2	CFI	Beer	08.M	UK	Carlsberg Beer	Carlesberg	UK
+Group2	Jean-Talon	unk	unk	unk	unk	unk	unk
+Group2	CHK	Beer	08.M	UK	Brewery	Beer	UK
+Group2	APL	Baking	08.M	Turkey	type yeasts of the species Saccharomyces cerevisiae in different sugar media", Letters in Applied Microbiology 2001	Baking	Turkey
+Group2	AEV	Wild	08.M	Rotterdam, Netherlands	Tapwater	Water	Netherlands
+Group3	SP003	Spirits	Mixed	Unknown	Spirits	Spirits	unk
+Group3	BTD	Baking	08.M	unk	type yeasts of the species Saccharomyces cerevisiae in different sugar media", Letters in Applied Microbiology 2001	Baking	unk
+Group3	BFG	Wild	08.M	unk	Rotten wood	Nature	unk
+Group3	BE038	Beer	Mixed	Unknown	Beer (Lager)	Lager	Unknown
+Group3	BFE	Wild	08.M	unk	Spoiled gooseberry juice	Food	unk
+Group3	BFM	Wild	08.M	Slovenia	Petrol station, oil contaminated asphalt	Industrial	Slovenia
+Group3	BE061	Beer	Mixed	Germany	Beer (Alt)	Alt	Germany
+Group3	L.Brewferm	Beer	Beer/baking	unk	Commercial Lager	Lager	unk
+Group3	ADL	Baking	08.M	Netherlands	Bakery	Baking	Netherlands
+Group3	BDL	Beer	08.M	Equador	Beer	Beer	Equador
+Group3	SP009	Spirits	Mixed/Mosaic	US (Tennessee)	Spirits	Spirits	USA
+Group3	YO734	Wild	Beer/baking	Yosemite, California, United States	D. pseudoobscura	Insect	USA
+Group3	ABM5	Baking	Beer/baking	unk	Commercial Baking	Baking	unk
+Group3	ABM4	Baking	Beer/baking	unk	Commercial Baking	Baking	unk
+Group3	ABM3	Baking	Beer/baking	unk	Commercial Baking	Baking	unk
+Group3	CHH	Baking	08.M	France	Bakery	Baking	France
+Group3	BR004	Baking	Mixed	Belgium	Bread	Baking	Belgium
+Group3	BE023	Beer	Mixed	Belgium	Beer (Ale refermentation)	Ale	Belgium
+Group3	CHG	Baking	08.M	Vietnam	Bakery	Baking	Vietnam
+Group3	AKT	Wild	08.M	Pichincha, Ecuador	Stingless bee	Insect	Ecuador
+Group3	ADM	Baking	08.M	Vietnam	Bakery	Baking	Vietnam
+Group3	TUM480	Beer	Beer/Bread	South Africa	Opaque beer	Opaque	South Africa
+Group3	CHR	Clinical	08.M	France	Vagina	Human	France
+Group3	BR003	Baking	Mixed	Belgium	Bread	Baking	Belgium
+Group3	BR002	Baking	Mixed	Belgium	Bread	Baking	Belgium
+Group3	BML	Clinical	08.M	Belgium	Vagina	Human	Belgium
+Group3	CKS	Clinical	08.M	France	Unknown	Human	France
+Group3	BE025	Beer	Mixed	Belgium	Beer (Ale refermentation)	Ale	Belgium
+Group3	CLA	Clinical	08.M	France	Unknown	Human	France
+Group3	BTE	Baking	08.M	unk	type yeasts of the species Saccharomyces cerevisiae in different sugar media", Letters in Applied Microbiology 2001	Baking	unk
+Group3	BMM	Clinical	08.M	Vall d'Hebron hospital, Barcelona, Spain	Vagina	Human	Spain
+Group3	BR001	Baking	Mixed	Unknown	Bread	Baking	unk
+Group3	WL007	Wild	Mixed	Denmark	Wild	Wild	Denmark
+Group3	WL006	Wild	Mixed	Denmark	Wild	Wild	Denmark
+Group3	CKK	Clinical	08.M	Amiens, France	Feces, clinical	Human	France
+Group3	CBF	Baking	08.M	Matera, Italy	Sourdough levan	Baking	Italy
+Group4	AFT	Clinical	08.M	Austria	Infected nail of 4 yo girl	Human	Austria
+Group4	AEM	Beer	08.M	unk	Beer wort	Beer	unk
+Group4	AHV	Beer	08.M	unk	Brewery	Beer	unk
+Group4	ADP	unk	08.M	French Guiana	Unknown	unk	French Guiana
+Group4	AGK	Wild	08.M	UK	Trinidadian cane sugar	Plant	UK
+Group4	AAM	Baking	08.M	France	Bakery	Baking	France
+Group4	CDR	Wild	08.M	Spain	Flowers of Centaurea alba	Flower	Spain
+Group4	AFF	Baking	08.M	France	Bakery	Baking	France
+Group4	ATR	Wild	08.M	Spain	Fruit	Fruit	Spain
+Group4	AFE	Wild	08.M	Sweden	Seawater	Water	Sweden
+Group4	YO465	Wild	Beer/baking	Gothenburg, Sweden	Fish gut	Fish	Sweden
+Group4	AFC	Wild	08.M	Goteborg, Sweden	Salmo gairdneri (rainbow trout)	Animal	Sweden
+Group4	AQI	Wild	08.M	Sweden	Seawater	Water	Sweden
+Group4	APM	Baking	08.M	Korea	type yeasts of the species Saccharomyces cerevisiae in different sugar media", Letters in Applied Microbiology 2001	Baking	Korea
+Group4	API	Baking	08.M	Korea	type yeasts of the species Saccharomyces cerevisiae in different sugar media", Letters in Applied Microbiology 2001	Baking	Korea
+Group4	PYCC4226	Baking	Beer/Bread	unk	Commercial bread dough	Baking	unk
+Group4	WI008	Wine	Mixed/Mosaic	Unknown	Wine	Wine	unk
+Group4	BTF	Baking	08.M	unk	type yeasts of the species Saccharomyces cerevisiae in different sugar media", Letters in Applied Microbiology 2001	Baking	unk
+Group4	ASL	Baking	08.M	Anatolia, Turkey	Bakery levain	Baking	Turkey
+Group4	AAL	Baking	08.M	France	Bakery	Baking	France
+Group4	BTC	Baking	08.M	unk	Fleischmann baker's yeast.	Baking	unk
+Group4	BCS	Wild	08.M	Israel	Evolution canyon	Nature	Israel
+Group4	BMG	Clinical	08.M	Norway	Human sputum	Human	Norway
+Group4	YO367	Wild	Beer/baking	Evolution Canyon, Israel	South facing shady spot, Station 2	Nature	Israel
+Group4	BCR	Wild	08.M	Israel	Evolution canyon	Nature	Israel
+Group4	YO1164	Wild	Beer/baking	San Jacinto, CA, USA	D. pseudoobscura	Insect	USA
+Group4	YO807	Wild	Beer/baking	unk	Canned peaches	Fruit	unk
+Group4	YO707	Wild	Beer/baking	unk	Coconut pod	Fruit	unk
+Group4	BBP	Wild	08.M	Spain	Flower of Centaurea alba	Flower	Spain
+Group4	ATS	Wild	08.M	Spain	Flower	Flower	Spain
+Group4	CHL	Baking	08.M	Northern Europe	Bakery	Baking	Europe
+Group4	ASP	unk	08.M	France	Unknown	unk	France
+Group4	A.BRY-97	Beer	Beer/baking	American	Commercial Ale	Ale	USA
+Group4	ANP	Wild	08.M	Navassa Island	Drosophila sp. from Opuntia stricta,	Insect	Navassa Island
+Group4	CIE	Clinical	08.M	Spain	Mouth	Human	Spain
+Group4	YO1201	Wild	Beer/baking	Java - Indonesia	Green coffee beans	Coffee bean	Indonesia
+Group4	AML	Wild	08.M	Tuchih, Nantou, Taiwan	Leaf of Acacia dealbata	Tree	Taiwan
+Group4	YO1128	Wild	Beer/baking	Ismaili District, Yemen	Green coffee beans	Coffee bean	Yemen
+Group4	ABM2	Baking	Beer/baking	unk	Commercial Baking	Baking	unk
+Group4	Platinum	Baking	Beer/Bread	unk	Commercial bread dough	Baking	unk
+Group4	YO1133	Wild	Beer/baking	Yirgacheffe, Ethiopia	Green coffee beans	Coffee bean	Ethiopia
+Group4	AMK	Wild	08.M	Tuchih, Nantou, Taiwan	Leaf of Cunninghamia lanceolata	Tree	Taiwan
+Group4	APN	Baking	08.M	Philippines	type yeasts of the species Saccharomyces cerevisiae in different sugar media", Letters in Applied Microbiology 2001	Baking	Philippines
+Group4	AMQ	Wild	08.M	Tuchih, Nantou, Taiwan	Leaf of Acacia dealbata	Tree	Taiwan
+Group4	AMI	Wild	08.M	Yuchih, Nantou, Taiwan	Leaf of Podocarppus macrophyllus	Tree	Taiwan
+Group4	APK	Baking	08.M	South Africa	Baker's yeast	Baking	South Africa
+Group4	AMG	Wild	08.M	Tuchih, Nantou, Taiwan	Leaf of Ardisia cornudentata	Tree	Taiwan

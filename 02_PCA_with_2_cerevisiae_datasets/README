@@ -2,7 +2,7 @@
 Scripts for running PCA on two datasets of S. cerevisiae with Jean-Talon
 
 
-### PCA with dataset form Fay et al. 2019. 
+### PCA with dataset from Fay et al. 2019. 
 
 plotPCA_beer.R
 
