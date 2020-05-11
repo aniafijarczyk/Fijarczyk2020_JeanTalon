@@ -1,4 +1,3 @@
-setwd("/media/anna/Volume/Yeast_JeanTalon/2020_02_figshare/03_relatedness_to_beer_strains")
 #author:aniafijarczyk
 library(ggplot2)
 library(dplyr)
