@@ -10,7 +10,6 @@ plotPCA_Figure2.R
 ./input_files/pops_PCA.csv
 
 ./output/sample_plotPCA_beer.pdf
-
 genotypes_beer_JT_biall.recode.gds
 
 
@@ -21,5 +20,4 @@ genotypes_beer_JT_biall.recode.gds
 ./input_files/pops_PCA.csv
 
 ./output/sample_plotPCA_1011.pdf
-
 genotypes_1011_JT_biall.recode.gds
