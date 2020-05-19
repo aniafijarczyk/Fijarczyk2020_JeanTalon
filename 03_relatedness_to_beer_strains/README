@@ -1,59 +1,57 @@
-Analyses related to estimating relatedness of the Jean-Talon strain to other beer strains
+Analyses related to estimating relatedness of the Jean-Talon strain to other beer strains (Figure 3)
 
 
+### Calculating IBS, IBD and plotting figures in Figure 3
+
+calculate_IBS_IBD.R
 
 
-### NJ tree of selected 77 beer strains
+# NJ tree
 
-plotTree_IBS.R
+./input_files/sample_VarFiltr.vcf.gz	# complete vcf file can be downloaded from figshare as File S4
+./input_files/table_S2.csv		# metadata for all strains
+./output/sample_VarFiltr_ibs.nwk	# tree based on IBS matrix
+genotypes_allsamples_VarFiltr.gds	# temporary file
 
-requirements:
+
+# Matrix of kinship coefficients & heatmap
+
 ./input_files/sample_VarFiltr.vcf.gz
-./input_files/samples_pop.txt
+./input_files/table_S2.csv
 
-output:
-genotypes_allsamples_VarFiltr.gds
-sample_VarFiltr_ibs.nwk
-
-
-
-### Matrix of kinship coefficients
-
-plotHeatmap_IBD.R
-
-requirements:
-./input_files/sample_VarFiltr.vcf.gz
-./input_files/samples_pop.txt
-./input_files/beerbakery_groups.txt
-./input_files/beer_types2.txt
-
-output:
-genotypes_allsamples_VarFiltr.gds
-plotHeatmap_IBD_sample.pdf
-IBDKINGmethod_kinship_with_JT_sample.out	# Table of kinship coefficients of each strain with Jean-Talon
-IBDKINGmethod_kinship_matrix_sample.out		# Matrix with kinship coefficients between all strains
+./output/sample_IBDKINGmethod_kinship_matrix.out	# matrix of kinship coefficients between all samples
+./output/sample_plotHeatmap_IBD_sample.pdf		# heatmap of kinship coefficients in Beer/baking strains
+genotypes_allsamples_VarFiltr.gds			# temporary file
 
 
-### Estimates of diversity and divergence
+# Estimates of synonymous diversity and divergence in 5713 genes
 
-plotDiversity.R
+./output/plotDiversity.pdf		# plot with synonymous summary statistics
 
-requirements:
-./input_files/diversity_6041genes.tab
 
-output:
-plotDiversity.pdf
+
+
+### Manipulating fasta files
+
+manipulateFasta.ipynb
+
+# Selecting non-overlapping and single exon genes; if vcf with genotypes of relatives is present (can be downloaded from figshare - File S5), 
+# after running several bcftools and seqtk commands one can generate msa of concatenated genes
+
+./input_files/saccharomyces_cerevisiae.gff.gz	# script downloads the file automatically from sgd
+./input_files/relatives_annot_Filtered2.samples	# names of haplotypes from the .tab file with genotypes
+
+./output/manipulateFasta_nonoverlappingCDS.bed	# bed file with single exon non-overlapping list of genes
+
+
 
 
 ### Calculating divergence time between Jean-Talon and relatives using S. cerevisiae S288C as an outgroup
 
 calcRelativeTime_Scer.ipynb
 
-requirements:
-./input_files/synonymous_length.txt			# number of synonymous sites in genome pairs of Jean-Talon and each relative
-./input_files/relatives_annot_Filtered2_01.samples	# ordered sample names of strains in the file with genotypes
-./input_files/sample_annot_Filtered2_01.tab.gz		# file with genotypes (sample)
-./input_files/sample_annot_synonymous_snpEff.tab.gz	# list of synonymous variants
+./input_files/relatives_annot_Filtered2.samples		# names of haplotypes from the .tab file with genotypes
+./input_files/relatives_annot_Filtered2_01.tab.gz	# .tab file with genotypes
+./input_files/relatives_annot_synonymous_snpEff.tab.gz	# list of synonymous variants
 
-output:
-calcRelativeTime_Scer_sample.out
+./output/calcRelativeTime_Scer_sample.out
