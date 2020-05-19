@@ -2,29 +2,24 @@
 Scripts for running PCA on two datasets of S. cerevisiae with Jean-Talon
 
 
+plotPCA_Figure2.R
+
 ### PCA with dataset from Fay et al. 2019. 
 
-plotPCA_beer.R
+./input_files/sample_Beer_JT_biall.recode_AF_PL.vcf.gz	# Complete vcf file can be downloaded from fishare (File S2)
+./input_files/pops_PCA.csv
 
-requirements:
-./input_files/genotypes_Beer_JT_biall.recode_AF_PL.vcf.gz
-./input_files/pop_info_beer.txt
+./output/sample_plotPCA_beer.pdf
 
-output:
-plotPCA_beer.pdf
 genotypes_beer_JT_biall.recode.gds
 
 
 
 ### PCA with dataset from Peter&DeChiara et al. 2018 (1000 yeast)
 
-plotPCA_1011.R
+./input_files/sample_1011_JT_biall.recode_AF_PL.vcf.gz	# Complete vcf file can be downloaded from fishare (File S3)
+./input_files/pops_PCA.csv
 
-requirements:
-./input_files/genotypes_1011_JT_biall.recode_AF_PL.vcf.gz
-./input_files/pop_info_1011.csv
-./input_files/pop_colors_1011.csv
+./output/sample_plotPCA_1011.pdf
 
-output:
-plotPCA_1011.pdf
 genotypes_1011_JT_biall.recode.gds
