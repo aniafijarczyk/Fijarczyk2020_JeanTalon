@@ -8,12 +8,12 @@ calculate_IBS_IBD.R
 
 
 ### NJ tree
-
+```
 ./input_files/sample_VarFiltr.vcf.gz	# complete vcf file can be downloaded from figshare as File S4
 ./input_files/table_S2.csv		# metadata for all strains
 ./output/sample_VarFiltr_ibs.nwk	# tree based on IBS matrix
 genotypes_allsamples_VarFiltr.gds	# temporary file
-
+```
 
 ### Matrix of kinship coefficients & heatmap
 
