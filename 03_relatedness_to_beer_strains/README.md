@@ -1,13 +1,13 @@
-Analyses related to estimating relatedness of the Jean-Talon strain to other beer strains (Figure 3)
+# Analyses related to estimating relatedness of the Jean-Talon strain to other beer strains (Figure 3)
 
 
-### Calculating IBS, IBD and plotting figures in Figure 3 
-# Complete vcf file for these analyses can be downloaded from figshare as File S4
+## Calculating IBS, IBD and plotting figures in Figure 3 
+### Complete vcf file for these analyses can be downloaded from figshare as File S4
 
 calculate_IBS_IBD.R
 
 
-# NJ tree
+### NJ tree
 
 ./input_files/sample_VarFiltr.vcf.gz	# complete vcf file can be downloaded from figshare as File S4
 ./input_files/table_S2.csv		# metadata for all strains
@@ -15,7 +15,7 @@ calculate_IBS_IBD.R
 genotypes_allsamples_VarFiltr.gds	# temporary file
 
 
-# Matrix of kinship coefficients & heatmap
+### Matrix of kinship coefficients & heatmap
 
 ./input_files/sample_VarFiltr.vcf.gz
 ./input_files/table_S2.csv
@@ -25,17 +25,17 @@ genotypes_allsamples_VarFiltr.gds	# temporary file
 genotypes_allsamples_VarFiltr.gds			# temporary file
 
 
-# Estimates of synonymous diversity and divergence in 5713 genes
+### Estimates of synonymous diversity and divergence in 5713 genes
 
 ./output/plotDiversity.pdf		# plot with synonymous summary statistics
 
 
 
 
-### Manipulating fasta files
-# Selecting non-overlapping and single exon genes; 
-# if vcf with genotypes of relatives is present (can be downloaded from figshare - File S5), 
-# after running several bcftools and seqtk commands one can generate msa of concatenated genes
+# Manipulating fasta files
+### Selecting non-overlapping and single exon genes; 
+### if vcf with genotypes of relatives is present (can be downloaded from figshare - File S5), 
+### after running several bcftools and seqtk commands one can generate msa of concatenated genes
 
 manipulateFasta.ipynb
 
@@ -47,7 +47,7 @@ manipulateFasta.ipynb
 
 
 
-### Calculating divergence time between Jean-Talon and relatives using S. cerevisiae S288C as an outgroup
+# Calculating divergence time between Jean-Talon and relatives using S. cerevisiae S288C as an outgroup
 
 calcRelativeTime_Scer.ipynb
 
