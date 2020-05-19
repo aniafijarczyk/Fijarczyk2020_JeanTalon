@@ -1,7 +1,8 @@
 Analyses related to estimating relatedness of the Jean-Talon strain to other beer strains (Figure 3)
 
 
-### Calculating IBS, IBD and plotting figures in Figure 3
+### Calculating IBS, IBD and plotting figures in Figure 3 
+# Complete vcf file for these analyses can be downloaded from figshare as File S4
 
 calculate_IBS_IBD.R
 
@@ -32,11 +33,11 @@ genotypes_allsamples_VarFiltr.gds			# temporary file
 
 
 ### Manipulating fasta files
+# Selecting non-overlapping and single exon genes; 
+# if vcf with genotypes of relatives is present (can be downloaded from figshare - File S5), 
+# after running several bcftools and seqtk commands one can generate msa of concatenated genes
 
 manipulateFasta.ipynb
-
-# Selecting non-overlapping and single exon genes; if vcf with genotypes of relatives is present (can be downloaded from figshare - File S5), 
-# after running several bcftools and seqtk commands one can generate msa of concatenated genes
 
 ./input_files/saccharomyces_cerevisiae.gff.gz	# script downloads the file automatically from sgd
 ./input_files/relatives_annot_Filtered2.samples	# names of haplotypes from the .tab file with genotypes
