@@ -1,0 +1,33 @@
+# Code for analysing growth curves and plotting growth in different cobalt concentrations (Figure 4)
+
+
+script_Cobalt_resistance_JT_15_05_2020.R
+
+
+## Calculating slopes for all samples
+
+./input_files/Cobalt_resistance_JT_raw_15_05_2020.txt
+
+./output/phenotyp_JT_slope_tot.txt
+
+
+
+## Getting median for replicates
+
+./output/phenotyp_JT_slope_tot.txt
+
+./output/phenotyp_JT_slope_sd.txt
+
+
+## Plotting growth rate
+
+./output/phenotyp_JT_slope_sd.txt
+
+./output/Phenotypage_JT_fig_11_05_2020.pdf
+
+
+## Plotting growth curve
+
+./input_files/Cobalt_resistance_JT_raw_15_05_2020.txt
+
+./output/Phenotypage_JT_fig_G_curve_11_05_2020.pdf
