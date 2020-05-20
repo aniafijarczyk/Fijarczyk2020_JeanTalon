@@ -1,4 +1,4 @@
-# Code for analysing structural variation with long reads
+# Code for analysing structural variation with long reads (Figure 5 & Figures S4-S6)
 
 S288c.all_feature.gff	# GFF file of all genomic annotations produced by Yue et al. Nat. Genet. 2017. 
 			# Downloaded from https://yjx1217.github.io/Yeast_PacBio_2016/data/
