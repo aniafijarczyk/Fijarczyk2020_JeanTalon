@@ -36,7 +36,7 @@ manageCNVs.ipynb
 
 plotMaltoseCNV.ipynb
 
-./input_files/maltoseGenes_CNV.tab
-./input_files/table_S2.csv
+./input_files/maltoseGenes_CNV.tab	# table with coverage estimates in each gene from maltose metabolism pathway
+./input_files/table_S2.csv		# metadata for all strains
 
 ./output/figure_heatmap_maltose.pdf
