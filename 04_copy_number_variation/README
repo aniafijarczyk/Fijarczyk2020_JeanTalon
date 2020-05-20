@@ -1,0 +1,42 @@
+# Code for analyses of copy number variation (CNVs) (Figure 4 & Figure S3)
+
+
+
+## Plotting CNVs and aneuploidies in Jean-Talon and its close relatives (Figure 4)
+
+plotCNP.R
+
+input_files/getCNVIntervals_all.tab	# List of CNVs > 10 kb
+
+output/plotCNP.pdf
+
+
+
+## Analysisng CNVs (Figure S3)
+## - filtering for poor quality coverage
+## - subsampling unrelated strains within groups
+## - calculating frequencies of CNVs in groups & plotting heatmaps (this only after running some bash scripts)
+
+### Complete file with coverage estimates can be downloaded from figshare as File S6.
+
+manageCNVs.ipynb
+
+./input_files/sample_FileS6.txt.gz		# coverage in 250 bp windows for all strains
+./input_files/FileS7.txt.gz			# gain and loss variants for all strains
+./input_files/table_S2.csv			# metadata for all strains
+./input_files/IBDKINGmethod_kinship_matrix.out	# kinship coefficient between all samples
+./input_files/chromLengthConvertion.fai		# genome fasta fai file
+./input_files/genome_windows_250.bed		# bed file with 250 bp windows
+./input_files/cnv_beer_bb_gains.bed		# coordinates of gains in Beer/baking group
+./input_files/cnv_beer_bb_losses.bed		# coordinates of losses in Beer/baking group
+
+
+
+## Plotting heatmap of coverage in maltose metabolism genes (Figure S3)
+
+plotMaltoseCNV.ipynb
+
+./input_files/maltoseGenes_CNV.tab
+./input_files/table_S2.csv
+
+./output/figure_heatmap_maltose.pdf

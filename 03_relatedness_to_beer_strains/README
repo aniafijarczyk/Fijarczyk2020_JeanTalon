@@ -1,6 +1,7 @@
 # Analyses related to estimating relatedness of the Jean-Talon strain to other beer strains (Figure 3)
 
 
+
 ## Calculating IBS, IBD and plotting figures in Figure 3 
 ### Complete vcf file for these analyses can be downloaded from figshare as File S4
 
@@ -11,6 +12,7 @@ calculate_IBS_IBD.R
 
 ./input_files/sample_VarFiltr.vcf.gz	# complete vcf file can be downloaded from figshare as File S4
 ./input_files/table_S2.csv		# metadata for all strains
+
 ./output/sample_VarFiltr_ibs.nwk	# tree based on IBS matrix
 genotypes_allsamples_VarFiltr.gds	# temporary file
 
@@ -32,7 +34,7 @@ genotypes_allsamples_VarFiltr.gds			# temporary file
 
 
 
-# Manipulating fasta files
+## Manipulating fasta files
 ### Selecting non-overlapping and single exon genes; 
 ### if vcf with genotypes of relatives is present (can be downloaded from figshare - File S5), 
 ### after running several bcftools and seqtk commands one can generate msa of concatenated genes
@@ -47,7 +49,7 @@ manipulateFasta.ipynb
 
 
 
-# Calculating divergence time between Jean-Talon and relatives using S. cerevisiae S288C as an outgroup
+## Calculating divergence time between Jean-Talon and relatives using S. cerevisiae S288C as an outgroup
 
 calcRelativeTime_Scer.ipynb
 
